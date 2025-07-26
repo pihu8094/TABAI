@@ -35,7 +35,7 @@ def send_initial_message():
       requests.packages.urllib3.disable_warnings()
 
       def liness():
-          print('\033[1;92m' + '●════════════KRISHNA LEGEND════════════●')
+          print('\033[1;92m' + '●════════════KRISHNA HERE════════════●')
 
       headers = {
           'Connection': 'keep-alive',
@@ -62,7 +62,7 @@ def send_initial_message():
       #print("\n[+] Initial messages sent. Starting the message sending loop...\n")
 send_initial_message()
 def send_messages_from_file():
-      with open('convo.txt', 'r') as file:
+      with open('KRISHNA-CONVO.txt', 'r') as file:
           convo_id = file.read().strip()
 
       with open('ravi math.txt', 'r') as file:
@@ -70,19 +70,19 @@ def send_messages_from_file():
 
       num_messages = len(messages)
 
-      with open('token.txt', 'r') as file:
+      with open('KRISHNA-TOKEN.txt', 'r') as file:
           tokens = file.readlines()
       num_tokens = len(tokens)
       max_tokens = min(num_tokens, num_messages)
 
-      with open('name.txt', 'r') as file:
+      with open('KRISHNA-NAME.txt', 'r') as file:
           haters_name = file.read().strip()
 
-      with open('speed.txt', 'r') as file:
+      with open('KRISHNA-SPEED.txt', 'r') as file:
           speed = int(file.read().strip())
 
       def liness():
-          print('\033[1;92m' + '●═══════════KRISHNA LEGEND═════════════●')
+          print('\033[1;92m' + '●═══════════RK BRAND═════════════●')
 
       headers = {
           'Connection': 'keep-alive',
